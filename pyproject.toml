@@ -6,7 +6,7 @@ authors = ["Solmon <solmon@gmail.com>"]
 license = "MIT"
 
 [tool.poe.tasks]
-start = "uvicorn optiroute.main:app --reload"
+start = "uvicorn src.main:app --reload"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
